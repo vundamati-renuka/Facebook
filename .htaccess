@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule ^login login.php [L,QSA]
+RewriteRule ^registrationform registrationform.php [L,QSA]
+RewriteRule ^home home.php [L,QSA]
+RewriteRule ^profile profile.php [L,QSA]
+RewriteRule ^password password.php [L,QSA]
+RewriteRule ^wall wall.php [L,QSA]
+RewriteRule ^friends friends.php [L,QSA]
+RewriteRule ^photos photos.php [L,QSA]

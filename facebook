@@ -1,0 +1,45 @@
+
+users
+id, name, dob, state,city,pincode,email,mobile, username, password
+profile_pic, cover_pic, status, 
+
+friends
+id, user_id, friend_id, status
+	1			2		requested . accept
+	2			1		recieved. accept 
+
+posts
+id, user_id, body, share(public/friends/private), likes, comments, shared_to_user_id
+
+post_comments
+id, post_id, user_id, body
+
+post_likes
+id, post_id, user_id, datetime
+
+albums
+id, user_id, name, share
+
+album_images
+id, user_id, album_id, filename, likes, comments
+
+messages
+id, user_id, to_user_id, message, datetime, ip,
+
+notifications
+id, user_id, type (friend request/chat message/post), body, read 0/1, false/true, n/y, no/yes
+
+
+/facebook/
+/facebook/registration
+/facebook/login
+/facebook/forgotpassword
+/facebook/home  (newsfeed)
+/facebook/home  post form
+/facebook/wall   ( our posts )
+/facebook/photos
+
+user friendly urls / search engine friendly 
+mod_rewrite
+
+
