@@ -13,7 +13,7 @@ if( $_POST['action'] == "register" ){
         }
         
          if( !preg_match("/^[A-Za-z\ ]{5,50}$/", $_POST['city'] ) ){
-            $errors[] = "City incorrect";
+            $errors[] = "City incorrect!";
         }
         if( !preg_match("/^[0-9\,]{3,8}$/", $_POST['pincode'] ) ){
             $errors[] = "Pincode incorrect";

@@ -1,13 +1,9 @@
 <?php
 require("config.php");
-
 $page_name = "home";
-//require("home_actions.php");
-
 require("header.php");
 require("menuheader.php");
 ?>
-
 <style>
 	.cover_pic {
 			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/3.jpg");
@@ -42,17 +38,12 @@ require("menuheader.php");
 	<div class="row">
 			<div class="col-5"></div>
 			<div class="col-3">
-
 			<div class="profile_pic">
 				<img src="images/4.jpg" class="rounded-circle">
 			</div>        
-
 			</div>
 			<div class="col-5"></div>
   	</div>
-
   	<div class="username"><p></p></div>
 </div>
-
-
 	
